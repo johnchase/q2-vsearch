@@ -19,7 +19,7 @@ setup(
     author_email="gregcaporaso@gmail.com",
     description="QIIME 2 plugin for vsearch.",
     entry_points={
-        "qiime.plugins":
+        "qiime2.plugins":
         ["q2-vsearch=q2_vsearch.plugin_setup:plugin"]
     },
     package_data={}
